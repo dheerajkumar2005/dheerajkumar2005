@@ -26,7 +26,18 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
   * **SGEMM in `llama.cpp`**: Custom cache-blocked, software-prefetched SGEMM matrix multiplication directly injected into the `llama.cpp` inference engine.
   * Hardware performance counter profiling via Linux `perf` (Instructions, IPC, L1-D MPKI).
 
-* [**Multi-Threaded-Plagiarism-Detector**](https://github.com/dheerajkumar2005/Multi-Threaded-Plagiarism-Detector)  
+* [**AES-Side-Channel-Key-Recovery**](https://github.com/dheerajkumar2005/AES-Side-Channel-Key-Recovery)  
+  *CS 6102 (Implementation Security in Cryptography), IIT Bombay | Guide: Prof. Sayandeep Saha*  
+  * Hardware-software $GF(2^4)$ finite-field multiplier in Verilog HDL and cycle-benchmarked C++ with AES key expansion (`expandSK`).
+  * Correlation Power Analysis (CPA) and multivariate Gaussian template attack pipeline extracting 128-bit AES secret keys from power consumption traces.
+
+* [**Discrete-Event-Server-Simulator**](https://github.com/dheerajkumar2005/Discrete-Event-Server-Simulator)  
+  *CS 681 (Performance Analysis of Systems and Networks), IIT Bombay | Guide: Prof. Varsha Apte*  
+  * Discrete-event simulation of multi-threaded web servers and closed queueing networks in modern C++.
+  * Priority-queue scheduler modeling finite worker thread pools, stochastic think/service distributions, request timeouts, and tandem networks with feedback.
+  * Rigorously validated against Mean Value Analysis (MVA) analytical queueing theory formulations.
+
+* [**plagiarism-checker**](https://github.com/dheerajkumar2005/plagiarism-checker)  
   *CS 293 (Data Structures and Algorithms), IIT Bombay | Guide: Prof. Ashutosh Gupta*  
   * Concurrent C++ code similarity engine detecting patchwork and structural code plagiarism.
   * Real-time streaming submission ingestion powered by a dual-thread producer-consumer pipeline with mutexes, reader-writer locks (`std::shared_mutex`), and condition variables.
@@ -57,16 +68,25 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
   * Deep representation probing and transferability analysis of vision backbones (ResNet-50) on Earth Observation imagery.
   * Layer-wise probing, few-shot adaptation regimes, fine-tuning dynamics, and out-of-distribution robustness assessments.
 
+* [**Poke-bot**](https://github.com/dheerajkumar2005/Poke-bot)  
+  *Reinforcement Learning & Game AI*  
+  * Transformer-based Reinforcement Learning agent trained for competitive Pokémon Showdown Gen 9 Random Battles.
+  * Explores self-play policies, belief state modeling, and action space optimization under partial observability.
+
 * [**Time-Series-Forecasting-and-Modeling**](https://github.com/dheerajkumar2005/Time-Series-Forecasting-and-Modeling)  
   *CS 215 (Data Analysis & Interpretation), IIT Bombay | Guide: Prof. Sunita Sarawagi*  
   * Non-stationary time series forecasting using Augmented Dickey-Fuller tests, ACF/PACF order selection, and ARIMA/SARIMA/ETS models.
   * Non-parametric anomaly and transaction fraud detection via Epanechnikov Kernel Density Estimation (KDE) and rolling window feature statistics.
 
+* [**NYC-Taxi-Spatial-Temporal-Analysis**](https://github.com/dheerajkumar2005/NYC-Taxi-Spatial-Temporal-Analysis)  
+  *CS 215 (Data Analysis & Interpretation), IIT Bombay | Guide: Prof. Sunita Sarawagi*  
+  * Spatial-temporal exploratory data analysis, transit hub coordinate clustering, and trip duration regression over NYC Yellow Taxi trajectory records.
+
 ---
 
 ### 🔍 Information Retrieval & Search
 
-* [**Sparse-Retrieval-Search-Engine**](https://github.com/dheerajkumar2005/Sparse-Retrieval-Search-Engine)  
+* [**Sparse-Retrieval**](https://github.com/dheerajkumar2005/Sparse-Retrieval)  
   *CS 6101 (Indexing and Retrieving Text and Graphs), IIT Bombay*  
   * End-to-end information retrieval framework evaluating lexical and learned sparse models over the BEIR benchmark (SciFact, FEVER, HotpotQA, MSMARCO).
   * Implementations of Lucene/Pyserini inverted indexes, BM25 grid tuning, Rocchio & RM3 pseudo-relevance feedback, HyDE (LLM-generated queries), Doc2Query, and fine-tuned **SPLADE** neural representations.
