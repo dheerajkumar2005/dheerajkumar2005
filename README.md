@@ -3,7 +3,7 @@
 [![IIT Bombay](https://img.shields.io/badge/IIT%20Bombay-B.Tech%20Computer%20Science%20%26%20Engineering-blue.svg)](https://www.cse.iitb.ac.in/)
 [![Email](https://img.shields.io/badge/Email-dheerajkumarmaradana%40gmail.com-red.svg)](mailto:dheerajkumarmaradana@gmail.com)
 
-Senior Undergraduate in **Computer Science and Engineering at the Indian Institute of Technology Bombay (IIT Bombay)**. My interests span **Computer Architecture**, **Deep Learning**, **Climate Science**, **GeoML**
+Senior Undergraduate in **Computer Science and Engineering at the Indian Institute of Technology Bombay (IIT Bombay)**. My interests span **Systems**, **Deep Learning**, **Climate Science**, **GeoML**
 
 ---
 
