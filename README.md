@@ -20,29 +20,10 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
 ### 🖥️ Systems, Compilers & Architecture
 
 * [**C-Compiler-From-Scratch**](https://github.com/dheerajkumar2005/C-Compiler-From-Scratch)  
-  *CS 306 (Compilers), IIT Bombay | Guide: Prof. Uday Khedker*  
   * Multi-stage optimizing compiler (`sclp`) written in C++ translating high-level procedural C into optimized MIPS assembly.
   * Complete compilation pipeline: Flex lexer, Bison LALR(1) parser, AST construction, intermediate Three-Address Code (TAC), Register Transfer Language (RTL), and target MIPS generation validated on SPIM.
   * Control-flow graph (CFG) analysis, basic block partitioning, local/global common subexpression elimination, constant folding, and register allocation.
-
-* [**Hardware-Conscious-Performance-Engineering**](https://github.com/dheerajkumar2005/Hardware-Conscious-Performance-Engineering)  
-  *CS 683 (Advanced Computer Architecture), IIT Bombay*  
-  High-performance kernel engineering optimizing compute-bound algorithms:
-  * **2D Convolution**: Loop interchange (unit-stride streaming), register unrolling, L1D cache tiling, and handwritten 256-bit **AVX2 SIMD intrinsics with FMA (`_mm256_fmadd_ps`)**.
-  * **SGEMM in `llama.cpp`**: Custom cache-blocked, software-prefetched SGEMM matrix multiplication directly injected into the `llama.cpp` inference engine.
-  * Hardware performance counter profiling via Linux `perf` (Instructions, IPC, L1-D MPKI).
-
-* [**Database-Systems-Engineering-CS349**](https://github.com/dheerajkumar2005/Database-Systems-Engineering-CS349)  
-  *CS 349 (Database and Information Systems), IIT Bombay*  
-  * Production-grade database engineering spanning relational schema design, query optimization, and modern distributed data pipelines.
-  * Query execution & profiling with `EXPLAIN ANALYZE`, indexing (B-Tree/Hash), trigger-based audit logging, and full-stack MVC applications (Node.js/EJS, React, React Native).
-  * Distributed data pipelines with Apache Kafka message streaming, PySpark batch analytics, Docker orchestration, and semantic search via `pgvector` RAG embeddings.
-
-* [**AES-Side-Channel-Key-Recovery**](https://github.com/dheerajkumar2005/AES-Side-Channel-Key-Recovery)  
-  *CS 6102 (Implementation Security in Cryptography), IIT Bombay | Guide: Prof. Sayandeep Saha*  
-  * Hardware-software $GF(2^4)$ finite-field multiplier in Verilog HDL and cycle-benchmarked C++ with AES key expansion (`expandSK`).
-  * Correlation Power Analysis (CPA) and multivariate Gaussian template attack pipeline extracting 128-bit AES secret keys from power consumption traces.
-
+ 
 * [**Discrete-Event-Server-Simulator**](https://github.com/dheerajkumar2005/Discrete-Event-Server-Simulator)  
   *CS 681 (Performance Analysis of Systems and Networks), IIT Bombay | Guide: Prof. Varsha Apte*  
   * Discrete-event simulation of multi-threaded web servers and closed queueing networks in modern C++.
@@ -60,10 +41,35 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
   * Distributed virtual router emulation network communicating over raw POSIX TCP/UDP sockets.
   * Event-driven non-blocking I/O multiplexing via POSIX `select()` event loops.
   * Distributed Link State Advertisement (LSA) flooding and dynamic routing convergence via **Dijkstra's shortest path algorithm**.
+ 
+* [**AES-Side-Channel-Key-Recovery**](https://github.com/dheerajkumar2005/AES-Side-Channel-Key-Recovery)  
+  *CS 6102 (Implementation Security in Cryptography), IIT Bombay | Guide: Prof. Sayandeep Saha*  
+  * Hardware-software $GF(2^4)$ finite-field multiplier in Verilog HDL and cycle-benchmarked C++ with AES key expansion (`expandSK`).
+  * Correlation Power Analysis (CPA) and multivariate Gaussian template attack pipeline extracting 128-bit AES secret keys from power consumption traces.
+
+* [**Hardware-Conscious-Performance-Engineering**](https://github.com/dheerajkumar2005/Hardware-Conscious-Performance-Engineering)  
+  *CS 683 (Advanced Computer Architecture), IIT Bombay*  
+  High-performance kernel engineering optimizing compute-bound algorithms:
+  * **2D Convolution**: Loop interchange (unit-stride streaming), register unrolling, L1D cache tiling, and handwritten 256-bit **AVX2 SIMD intrinsics with FMA (`_mm256_fmadd_ps`)**.
+  * **SGEMM in `llama.cpp`**: Custom cache-blocked, software-prefetched SGEMM matrix multiplication directly injected into the `llama.cpp` inference engine.
+  * Hardware performance counter profiling via Linux `perf` (Instructions, IPC, L1-D MPKI).
+
+* [**Database-Systems-Engineering-CS349**](https://github.com/dheerajkumar2005/Database-Systems-Engineering-CS349)  
+  *CS 349 (Database and Information Systems), IIT Bombay*  
+  * Production-grade database engineering spanning relational schema design, query optimization, and modern distributed data pipelines.
+  * Query execution & profiling with `EXPLAIN ANALYZE`, indexing (B-Tree/Hash), trigger-based audit logging, and full-stack MVC applications (Node.js/EJS, React, React Native).
+  * Distributed data pipelines with Apache Kafka message streaming, PySpark batch analytics, Docker orchestration, and semantic search via `pgvector` RAG embeddings.
+
+
 
 ---
 
 ### 🤖 Machine Learning, Computer Vision & Scientific Computing
+
+* [**Poke-bot**](https://github.com/dheerajkumar2005/Poke-bot)  
+  *Reinforcement Learning & Game AI*  
+  * Transformer-based Reinforcement Learning agent trained for competitive Pokémon Showdown Gen 9 Random Battles.
+  * Explores self-play policies, belief state modeling, and action space optimization under partial observability.
 
 * [**SSD-Object-Detection-PyTorch**](https://github.com/dheerajkumar2005/SSD-Object-Detection-PyTorch)  
   *Deep Learning & Computer Vision | [Read Medium Article](https://medium.com/@dheerajkumarmaradana/ssd-single-shot-multibox-detector-d7d570bbbe6f)*  
@@ -80,16 +86,7 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
   * Deep representation probing and transferability analysis of vision backbones (ResNet-50) on Earth Observation imagery.
   * Layer-wise probing, few-shot adaptation regimes, fine-tuning dynamics, and out-of-distribution robustness assessments.
 
-* [**Poke-bot**](https://github.com/dheerajkumar2005/Poke-bot)  
-  *Reinforcement Learning & Game AI*  
-  * Transformer-based Reinforcement Learning agent trained for competitive Pokémon Showdown Gen 9 Random Battles.
-  * Explores self-play policies, belief state modeling, and action space optimization under partial observability.
 
-* [**BB626-Biophysics-Simulations**](https://github.com/dheerajkumar2005/BB626-Biophysics-Simulations)  
-  *BB 626 (Biophysics & Statistical Mechanics), IIT Bombay*  
-  * Computational physics and statistical mechanics simulations using stochastic Monte Carlo and Langevin dynamics algorithms.
-  * Metropolis-Hastings 1D & 2D Ising model simulating spontaneous magnetization, magnetic susceptibility, and second-order phase transitions.
-  * Polymer chain scaling dynamics (Freely-Jointed & Freely-Rotating chains) and overdamped Brownian particle diffusion across harmonic and bistable potential landscapes.
 
 * [**Time-Series-Forecasting-and-Modeling**](https://github.com/dheerajkumar2005/Time-Series-Forecasting-and-Modeling)  
   *CS 215 (Data Analysis & Interpretation), IIT Bombay | Guide: Prof. Sunita Sarawagi*  
@@ -110,13 +107,13 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
   * Implementations of Lucene/Pyserini inverted indexes, BM25 grid tuning, Rocchio & RM3 pseudo-relevance feedback, HyDE (LLM-generated queries), Doc2Query, and fine-tuned **SPLADE** neural representations.
 
 ---
+### Others
 
-### 🌐 Full-Stack & Web Engineering
-
-* [**Campus-Dating-Web-App**](https://github.com/dheerajkumar2005/Campus-Dating-Web-App)  
-  *CS 108 (Software Systems Lab), IIT Bombay*  
-  * Interactive full-stack campus dating and matchmaking web application built with Node.js, Express, and JavaScript.
-  * User profile management, dynamic interest matching algorithm, swipe/browse cards, real-time messaging, and responsive UI.
+* [**BB626-Biophysics-Simulations**](https://github.com/dheerajkumar2005/BB626-Biophysics-Simulations)  
+  *BB 626 (Biophysics & Statistical Mechanics), IIT Bombay*  
+  * Computational physics and statistical mechanics simulations using stochastic Monte Carlo and Langevin dynamics algorithms.
+  * Metropolis-Hastings 1D & 2D Ising model simulating spontaneous magnetization, magnetic susceptibility, and second-order phase transitions.
+  * Polymer chain scaling dynamics (Freely-Jointed & Freely-Rotating chains) and overdamped Brownian particle diffusion across harmonic and bistable potential landscapes.
 
 ---
 
