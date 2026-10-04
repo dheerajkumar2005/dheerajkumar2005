@@ -1,12 +1,9 @@
 # Hi there, I'm Dheeraj Kumar Maradana 👋
 
 [![IIT Bombay](https://img.shields.io/badge/IIT%20Bombay-B.Tech%20Computer%20Science%20%26%20Engineering-blue.svg)](https://www.cse.iitb.ac.in/)
-[![CPI](https://img.shields.io/badge/CPI-8.99%2F10-brightgreen.svg)]()
-[![JEE Advanced](https://img.shields.io/badge/JEE%20Advanced-All%20India%20Rank%2047-orange.svg)]()
-[![Google](https://img.shields.io/badge/Experience-Google%20SWE%20Intern-4285F4?style=flat&logo=google&logoColor=white)]()
 [![Email](https://img.shields.io/badge/Email-dheerajkumarmaradana%40gmail.com-red.svg)](mailto:dheerajkumarmaradana@gmail.com)
 
-Senior Undergraduate in **Computer Science and Engineering at the Indian Institute of Technology Bombay (IIT Bombay)**. My interests span **High-Performance Systems & Computer Architecture**, **Distributed Systems**, **Deep Representation Learning**, and **Compilers**.
+Senior Undergraduate in **Computer Science and Engineering at the Indian Institute of Technology Bombay (IIT Bombay)**. My interests span **Computer Architecture**, **Deep Learning**, **Climate Science**, **GeoML**
 
 ---
 
@@ -14,11 +11,7 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
 
 * **Experience**: Incoming / Former **Software Engineering Intern at Google** (Pre-Silicon DMA Simulation Acceleration & Driver Development for TPU On-Chip Networks).
 * **Research**: Topic Modeling & NLP Pipeline Researcher with **Prof. Ramit Debnath, University of Cambridge** (Topic extraction over 1M+ multi-decade articles).
-* **Competitive Examinations**:
-  * **All India Rank 47** in JEE Advanced (among 180,000+ candidates).
-  * **All India Rank 110** in JEE Mains (among 1.1 million+ candidates).
-  * **All India Rank 78** in Kishore Vaigyanik Protsahan Yojana (KVPY).
-  * **Indian National Chemistry Olympiad (INChO)**: Top 44 nationwide.
+
 
 ---
 
