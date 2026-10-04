@@ -9,7 +9,7 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
 
 ## 🚀 Key Highlights & Achievements
 
-* **Experience**: Incoming / Former **Software Engineering Intern at Google** (Pre-Silicon DMA Simulation Acceleration & Driver Development for TPU On-Chip Networks).
+* **Experience**: Former **Software Engineering Intern at Google** (Pre-Silicon DMA Simulation Acceleration & Driver Development for TPU On-Chip Networks).
 * **Research**: Topic Modeling & NLP Pipeline Researcher with **Prof. Ramit Debnath, University of Cambridge** (Topic extraction over 1M+ multi-decade articles).
 
 
@@ -52,12 +52,7 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
   * Novel Explainable AI (XAI) framework for **Interpretable Model Differencing (IMD)**.
   * Trains a unified Joint Surrogate Tree (JST) simultaneously across the predictions of two black-box models to extract concise, human-readable propositional rules defining exact disagreement sub-spaces.
 
-* [**Guided-BERTopic-Topic-Modeling**](https://github.com/dheerajkumar2005/Guided-BERTopic-Topic-Modeling)  
-  *Research with University of Cambridge | Guide: Prof. Ramit Debnath*  
-  * Scalable, GPU-accelerated NLP topic modeling pipeline over **1,000,000+ newspaper articles** spanning five decades (1961–2010).
-  * Combines Guided BERTopic with RAPIDS `cuML` (GPU-accelerated UMAP & HDBSCAN) and interactive force-directed graph networks (PyVis & NetworkX).
-
-* [**Remote-Sensing-Deep-Learning-GNR638**](https://github.com/dheerajkumar2005/Remote-Sensing-Deep-Learning-GNR638)  
+* [**Remote-Sensing-Deep-Learning**](https://github.com/dheerajkumar2005/Remote-Sensing-Deep-Learning)  
   *GNR 638 (Machine Learning for Remote Sensing), IIT Bombay*  
   * Deep representation probing and transferability analysis of vision backbones (ResNet-50) on Earth Observation imagery.
   * Layer-wise probing, few-shot adaptation regimes, fine-tuning dynamics, and out-of-distribution robustness assessments.
@@ -84,7 +79,7 @@ Senior Undergraduate in **Computer Science and Engineering at the Indian Institu
 |---|---|
 | **Languages** | C++, C, Python, Java, SystemVerilog, SQL, MIPS, Scheme, Bash |
 | **Systems & Architecture** | POSIX Sockets, Pthreads, AVX2 SIMD, Cache Tiling, Linux `perf`, Docker, Make |
-| **Machine Learning & Data** | PyTorch, Scikit-Learn, BERTopic, Transformers, Polars, cuML, Statsmodels, NumPy, Pandas |
+| **Machine Learning & Data** | PyTorch, Scikit-Learn, BERTopic, Transformers, Polars, cuML, NumPy, Pandas |
 | **Tools & Platforms** | Git, GitHub Actions, LaTeX, QEMU, UVM |
 
 ---
